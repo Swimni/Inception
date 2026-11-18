@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#141c3a"/>
+    </linearGradient>
+    <clipPath id="win"><rect width="800" height="600" rx="18"/></clipPath>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8b98b5"/>
+    </marker>
+  </defs>
+  <g clip-path="url(#win)">
+    <rect width="800" height="600" fill="url(#bg)"/>
+    <rect width="800" height="44" fill="#0d1328"/>
+    <line x1="0" y1="44" x2="800" y2="44" stroke="#2a3458"/>
+    <circle cx="26" cy="22" r="6" fill="#ff5f57"/><circle cx="46" cy="22" r="6" fill="#febc2e"/><circle cx="66" cy="22" r="6" fill="#28c840"/>
+    <text x="400.0" y="27" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#8b98b5">inception</text>
+    <rect x="20" y="66" width="760" height="514" rx="16" fill="none" stroke="#8b98b5" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="10 7"/>
+    <rect x="38" y="54" width="214" height="26" fill="#0b1020"/>
+    <text x="48" y="74" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" fill="#8b98b5">virtual machine</text>
+    <rect x="48" y="104" width="404" height="64" rx="12" fill="#0d1328" stroke="#2a3458" stroke-width="2"/>
+    <g transform="translate(68,122)" fill="none" stroke="#34d399" stroke-width="3">
+      <path d="M4,12 v-4 a7,7 0 0 1 14,0 v4"/>
+      <rect x="0" y="12" width="22" height="16" rx="3" fill="#34d399" stroke="none"/>
+    </g>
+    <text x="104" y="145" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="24"><tspan fill="#8b98b5">https://</tspan><tspan fill="#e6edf3">nguinot-.42.fr</tspan></text>
+    <rect x="48" y="104" width="404" height="64" rx="12" fill="none" stroke="#34d399" stroke-width="3" opacity="0">
+      <animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.8833;0.9083;0.9750;1.0000;1.0000" values="0;0;1;1;0;0"/>
+    </rect>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.8833;0.9083;0.9750;1.0000;1.0000" values="0;0;1;1;0;0"/>
+      <rect x="476" y="116" width="112" height="40" rx="20" fill="#34d399" fill-opacity="0.15" stroke="#34d399" stroke-width="2"/>
+      <text x="532" y="144" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="bold" fill="#34d399">200 OK</text>
+    </g>
+    <circle cx="628" cy="136" r="7" fill="#34d399">
+      <animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="1;0.35;1"/>
+    </circle>
+    <text x="644" y="144" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="22" fill="#e6edf3">3/3 up</text>
+    <rect x="40" y="204" width="720" height="230" rx="14" fill="#7c5cff" fill-opacity="0.06" stroke="#7c5cff" stroke-width="2" stroke-dasharray="10 7"/>
+    <text x="742" y="234" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" fill="#7c5cff">docker network</text>
+    <line x1="152.0" y1="172" x2="152.0" y2="244" stroke="#8b98b5" stroke-width="2.5" marker-end="url(#arr)"/>
+    <line x1="248" y1="325.0" x2="302" y2="325.0" stroke="#8b98b5" stroke-width="2.5" marker-start="url(#arr)" marker-end="url(#arr)"/>
+    <line x1="496" y1="325.0" x2="550" y2="325.0" stroke="#8b98b5" stroke-width="2.5" marker-start="url(#arr)" marker-end="url(#arr)"/>
+    <g>
+      <rect x="60" y="250" width="184" height="150" rx="12" fill="#0f1630" stroke="#34d399" stroke-opacity="0.55" stroke-width="2"/>
+      <clipPath id="c60"><rect x="60" y="250" width="184" height="150" rx="12"/></clipPath>
+      <rect x="60" y="250" width="184" height="8" fill="#34d399" clip-path="url(#c60)"/>
+      <rect x="60" y="250" width="184" height="150" rx="12" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-width="4" opacity="0">
+        <animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.1500;0.1750;0.2083;0.2333;1.0000" values="0;0;1;1;0;0"/>
+      </rect>
+      <circle cx="224" cy="274" r="6" fill="#34d399">
+        <animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="1;0.35;1"/>
+      </circle>
+      <text x="152.0" y="322" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="31" font-weight="700" fill="#e6edf3">NGINX</text>
+      <text x="152.0" y="362" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" fill="#34d399">TLS :443</text>
+    </g>
+    <g>
+      <rect x="308" y="250" width="184" height="150" rx="12" fill="#0f1630" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="2"/>
+      <clipPath id="c308"><rect x="308" y="250" width="184" height="150" rx="12"/></clipPath>
+      <rect x="308" y="250" width="184" height="8" fill="#22d3ee" clip-path="url(#c308)"/>
+      <rect x="308" y="250" width="184" height="150" rx="12" fill="#22d3ee" fill-opacity="0.12" stroke="#22d3ee" stroke-width="4" opacity="0">
+        <animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.3167;0.3417;0.3750;0.4000;1.0000" values="0;0;1;1;0;0"/>
+      </rect>
+      <circle cx="472" cy="274" r="6" fill="#34d399">
+        <animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="1;0.35;1"/>
+      </circle>
+      <text x="400.0" y="322" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="31" font-weight="700" fill="#e6edf3">WordPress</text>
+      <text x="400.0" y="362" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" fill="#22d3ee">php-fpm :9000</text>
+    </g>
+    <g>
+      <rect x="556" y="250" width="184" height="150" rx="12" fill="#0f1630" stroke="#fbbf24" stroke-opacity="0.55" stroke-width="2"/>
+      <clipPath id="c556"><rect x="556" y="250" width="184" height="150" rx="12"/></clipPath>
+      <rect x="556" y="250" width="184" height="8" fill="#fbbf24" clip-path="url(#c556)"/>
+      <rect x="556" y="250" width="184" height="150" rx="12" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-width="4" opacity="0">
+        <animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.4833;0.5083;0.5417;0.5667;1.0000" values="0;0;1;1;0;0"/>
+      </rect>
+      <circle cx="720" cy="274" r="6" fill="#34d399">
+        <animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="1;0.35;1"/>
+      </circle>
+      <text x="648.0" y="322" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="31" font-weight="700" fill="#e6edf3">MariaDB</text>
+      <text x="648.0" y="362" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" fill="#fbbf24">:3306</text>
+    </g>
+    <line x1="400.0" y1="400" x2="400.0" y2="466" stroke="#22d3ee" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="5 5"/>
+    <line x1="648.0" y1="400" x2="648.0" y2="466" stroke="#fbbf24" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="5 5"/>
+    <g>
+      <path d="M322.0,478 v64 a78.0,12 0 0 0 156,0 v-64" fill="#0f1630" stroke="#22d3ee" stroke-opacity="0.7" stroke-width="2"/>
+      <ellipse cx="400.0" cy="478" rx="78.0" ry="12" fill="#16204a" stroke="#22d3ee" stroke-opacity="0.7" stroke-width="2"/>
+      <text x="400.0" y="524.0" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="22" fill="#e6edf3">wp files</text>
+    </g>
+    <g>
+      <path d="M570.0,478 v64 a78.0,12 0 0 0 156,0 v-64" fill="#0f1630" stroke="#fbbf24" stroke-opacity="0.7" stroke-width="2"/>
+      <ellipse cx="648.0" cy="478" rx="78.0" ry="12" fill="#16204a" stroke="#fbbf24" stroke-opacity="0.7" stroke-width="2"/>
+      <text x="648.0" y="524.0" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="22" fill="#e6edf3">database</text>
+    </g>
+    <text x="52" y="500" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" fill="#e6edf3">volumes</text>
+    <text x="52" y="530" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="18" fill="#8b98b5">/home/nguinot-/data</text>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.0017;0.1483;0.1500;1.0000" values="0;0;1;1;0;0"/>
+      <circle r="13" fill="#f472b6" opacity="0.25" cx="152.0" cy="168">
+        <animate attributeName="cx" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.1500;1.0000" values="152.0;152.0;152.0;152.0"/>
+        <animate attributeName="cy" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.1500;1.0000" values="168;168;250;250"/>
+      </circle>
+      <circle r="6" fill="#f472b6" cx="152.0" cy="168">
+        <animate attributeName="cx" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.1500;1.0000" values="152.0;152.0;152.0;152.0"/>
+        <animate attributeName="cy" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.1500;1.0000" values="168;168;250;250"/>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.2333;0.2350;0.3150;0.3167;1.0000" values="0;0;1;1;0;0"/>
+      <circle r="13" fill="#f472b6" opacity="0.25" cx="244" cy="325.0">
+        <animate attributeName="cx" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.2333;0.3167;1.0000" values="244;244;308;308"/>
+        <animate attributeName="cy" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.2333;0.3167;1.0000" values="325.0;325.0;325.0;325.0"/>
+      </circle>
+      <circle r="6" fill="#f472b6" cx="244" cy="325.0">
+        <animate attributeName="cx" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.2333;0.3167;1.0000" values="244;244;308;308"/>
+        <animate attributeName="cy" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.2333;0.3167;1.0000" values="325.0;325.0;325.0;325.0"/>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.4000;0.4017;0.4817;0.4833;1.0000" values="0;0;1;1;0;0"/>
+      <circle r="13" fill="#f472b6" opacity="0.25" cx="492" cy="325.0">
+        <animate attributeName="cx" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.4000;0.4833;1.0000" values="492;492;556;556"/>
+        <animate attributeName="cy" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.4000;0.4833;1.0000" values="325.0;325.0;325.0;325.0"/>
+      </circle>
+      <circle r="6" fill="#f472b6" cx="492" cy="325.0">
+        <animate attributeName="cx" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.4000;0.4833;1.0000" values="492;492;556;556"/>
+        <animate attributeName="cy" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.4000;0.4833;1.0000" values="325.0;325.0;325.0;325.0"/>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.5667;0.5683;0.6483;0.6500;1.0000" values="0;0;1;1;0;0"/>
+      <circle r="13" fill="#22d3ee" opacity="0.25" cx="556" cy="325.0">
+        <animate attributeName="cx" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.5667;0.6500;1.0000" values="556;556;492;492"/>
+        <animate attributeName="cy" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.5667;0.6500;1.0000" values="325.0;325.0;325.0;325.0"/>
+      </circle>
+      <circle r="6" fill="#22d3ee" cx="556" cy="325.0">
+        <animate attributeName="cx" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.5667;0.6500;1.0000" values="556;556;492;492"/>
+        <animate attributeName="cy" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.5667;0.6500;1.0000" values="325.0;325.0;325.0;325.0"/>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.6500;0.6517;0.7317;0.7333;1.0000" values="0;0;1;1;0;0"/>
+      <circle r="13" fill="#22d3ee" opacity="0.25" cx="308" cy="325.0">
+        <animate attributeName="cx" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.6500;0.7333;1.0000" values="308;308;244;244"/>
+        <animate attributeName="cy" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.6500;0.7333;1.0000" values="325.0;325.0;325.0;325.0"/>
+      </circle>
+      <circle r="6" fill="#22d3ee" cx="308" cy="325.0">
+        <animate attributeName="cx" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.6500;0.7333;1.0000" values="308;308;244;244"/>
+        <animate attributeName="cy" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.6500;0.7333;1.0000" values="325.0;325.0;325.0;325.0"/>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.7333;0.7350;0.8817;0.8833;1.0000" values="0;0;1;1;0;0"/>
+      <circle r="13" fill="#22d3ee" opacity="0.25" cx="152.0" cy="250">
+        <animate attributeName="cx" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.7333;0.8833;1.0000" values="152.0;152.0;152.0;152.0"/>
+        <animate attributeName="cy" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.7333;0.8833;1.0000" values="250;250;168;168"/>
+      </circle>
+      <circle r="6" fill="#22d3ee" cx="152.0" cy="250">
+        <animate attributeName="cx" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.7333;0.8833;1.0000" values="152.0;152.0;152.0;152.0"/>
+        <animate attributeName="cy" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.7333;0.8833;1.0000" values="250;250;168;168"/>
+      </circle>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="799" height="599" rx="18" fill="none" stroke="#2a3458"/>
+</svg>
