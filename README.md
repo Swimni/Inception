@@ -3,12 +3,7 @@
 A small web infrastructure where **NGINX**, **WordPress** and **MariaDB** each run in their own Docker container, orchestrated with Docker Compose inside a virtual machine.
 
 <p align="center">
-  <img src="assets/site.png" width="100%" alt="The WordPress site open at https://nguinot-.42.fr in the browser of the virtual machine">
-</p>
-
-<p align="center">
-  <img src="assets/containers.png" width="49%" alt="Terminal showing the nginx, wordpress and mariadb containers up, with only port 443 exposed">
-  <img src="assets/wp-admin.png" width="49%" alt="WordPress admin panel listing the two users created at startup">
+  <img src="assets/inception_card.svg" width="560" alt="Animated diagram: an HTTPS request goes from the browser to NGINX, then WordPress, then MariaDB, and the response comes back">
 </p>
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -33,15 +28,17 @@ A 42 Paris project about system administration and containers. Every image is bu
 
 ## Architecture
 
-<p align="center">
-  <img src="assets/inception_card.svg" width="560" alt="Animated diagram: an HTTPS request goes from the browser to NGINX, then WordPress, then MariaDB, and the response comes back">
-</p>
-
 | Container | Role | Port |
 |-----------|------|------|
 | `nginx` | TLS termination, serves static files, forwards PHP to WordPress over FastCGI | `443` (only port open to the host) |
 | `wordpress` | WordPress + php-fpm | `9000` (internal) |
 | `mariadb` | Database server | `3306` (internal) |
+
+As the subject requires, the whole stack runs inside a virtual machine:
+
+<p align="center">
+  <img src="assets/vm.png" width="80%" alt="Welcome screen of the virtual machine the project runs in">
+</p>
 
 ## Getting started
 
