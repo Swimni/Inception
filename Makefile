@@ -7,7 +7,7 @@ all: up
 
 up: check
 	@mkdir -p $(DATA_DIR)/mariadb $(DATA_DIR)/wordpress
-	$(COMPOSE) up -d --build
+	$(COMPOSE) up -d --build --force-recreate
 
 check:
 	@for f in $(REQUIRED); do \
